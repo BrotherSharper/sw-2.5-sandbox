@@ -1,0 +1,31 @@
+{
+  "name": "Sword-World-2.5",
+  "title": "Sword-World-2.5",
+  "description": "",
+  "authors": [],
+  "flags": {},
+  "version": "1.0.0",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "label": "説明資料",
+      "type": "JournalEntry",
+      "name": "JournalEntry-gm2yd6eh5kcl448x",
+      "path": "packs/JournalEntry-gm2yd6eh5kcl448x.db",
+      "system": "sandbox",
+      "entity": "JournalEntry",
+      "private": false
+    }
+  ],
+  "system": "sandbox",
+  "dependencies": [],
+  "socket": false,
+  "protected": false,
+  "coreVersion": "9.255",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "0.12.2"
+}
