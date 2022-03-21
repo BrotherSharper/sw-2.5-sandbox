@@ -21,8 +21,14 @@
     }
   ],
   "system": "sandbox",
-  "dependencies": [],
+  "dependencies": [{
+    "name": "sandbox",
+    "type": "system",
+    "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json"
+  }],
   "socket": false,
+  "manifest": "https://raw.githubusercontent.com/BrotherSharper/sw-2.5-sandbox/master/world.json",
+  "download": "https://github.com/BrotherSharper/sw-2.5-sandbox/archive/master.zip",
   "protected": false,
   "coreVersion": "9.255",
   "resetKeys": false,
