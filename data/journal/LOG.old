@@ -1,0 +1,15 @@
+2024/04/08-14:32:51.743 5edc Delete type=3 #1
+2024/04/08-14:32:54.702 8038 Level-0 table #5: started
+2024/04/08-14:32:54.747 a614 Current memtable full; waiting...
+2024/04/08-14:32:55.284 8038 Level-0 table #5: 15876382 bytes OK
+2024/04/08-14:32:55.285 8038 Delete type=0 #3
+2024/04/08-14:32:55.479 8038 Level-0 table #7: started
+2024/04/08-14:32:55.508 8038 Level-0 table #7: 15876662 bytes OK
+2024/04/08-14:32:55.509 8038 Delete type=0 #4
+2024/04/08-14:32:55.510 8038 Compacting 1@1 + 1@2 files
+2024/04/08-14:32:55.525 8038 Generated table #8@1: 4 keys, 3669547 bytes
+2024/04/08-14:32:55.828 8038 Generated table #9@1: 1 keys, 12209221 bytes
+2024/04/08-14:32:55.828 8038 Compacted 1@1 + 1@2 files => 15878768 bytes
+2024/04/08-14:32:55.829 8038 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/04/08-14:32:55.830 8038 Delete type=2 #5
+2024/04/08-14:32:55.831 8038 Delete type=2 #7

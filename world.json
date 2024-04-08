@@ -1,39 +1,40 @@
 {
-  "name": "Sword-World-2.5",
   "title": "Sword-World-2.5",
-  "description": "",
-  "authors": ["AMT", "甘党料理人"],
-  "flags": {},
-  "version": "1.0.1",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
+  "version": "1.0.0",
   "packs": [
     {
       "label": "説明資料",
       "type": "JournalEntry",
       "name": "JournalEntry-gm2yd6eh5kcl448x",
-      "path": "packs/JournalEntry-gm2yd6eh5kcl448x.db",
+      "path": "packs/JournalEntry-gm2yd6eh5kcl448x",
       "system": "sandbox",
-      "entity": "JournalEntry",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "system": "sandbox",
-  "dependencies": [{
-    "name": "sandbox",
-    "type": "system",
-    "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json"
-  }],
-  "socket": false,
   "manifest": "https://raw.githubusercontent.com/BrotherSharper/sw-2.5-sandbox/master/world.json",
   "download": "https://github.com/BrotherSharper/sw-2.5-sandbox/archive/master.zip",
-  "protected": false,
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "coreVersion": "9.255",
+  "coreVersion": "11.315",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "0.12.2"
+  "systemVersion": "0.14.4.4",
+  "id": "sword-world-25",
+  "relationships": {
+    "systems": [
+      {
+        "id": "sandbox",
+        "type": "system",
+        "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "verified": "11.315",
+    "minimum": "11"
+  }
 }
